@@ -21,7 +21,7 @@ title.forEach((cls,index)=>{
 	img.dataset.type = cls;
 	img.dataset.index = index;
 
-	mg.addEventListener("click", function () {
+	img.addEventListener("click", function () {
      
     if (selected.find(item => item.dataset.index === this.dataset.index)) {
       return;
